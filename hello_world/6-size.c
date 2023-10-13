@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-printf("-m32 -m64",%d);
+printf("-m32 -m64", % d);
 return (0);
 }
