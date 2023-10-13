@@ -1,5 +1,11 @@
 #include <stdio.h>
-int main(void) 
+/**
+ * main - puts will print the text inside of the quotation
+ *
+ * Return: will wake the value of void = 0
+ */
+int main(void)
 {
-#fputs "Programming is like building a multilingual puzzle #
+fputs("Programming is like building a multilingual puzzle");
+return (void);
 }
