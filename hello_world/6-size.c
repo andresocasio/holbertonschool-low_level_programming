@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-printf("zu $-m32 $-m64");
+printf("zu %:wq -m32 %-m64");
 return (0);
 }
