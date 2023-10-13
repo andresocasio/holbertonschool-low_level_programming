@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-prinf $("zu -m32");
+prinf:("zu $-m32");
 return (0);
 }
