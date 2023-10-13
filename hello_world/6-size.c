@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-prinf:("zu $-m32");
+printf("zu $/tmp/32 $/tmp/64");
 return (0);
 }
