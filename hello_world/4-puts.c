@@ -4,8 +4,7 @@
  *
  * Return: will wake the value of void = 0
  */
-int main(void)
+void main(void)
 {
 puts("Programming is like building a multilingual puzzle");
-return (void);
 }
