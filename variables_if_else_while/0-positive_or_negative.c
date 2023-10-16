@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main - Entry point 
  *
- * Return: Always 0 (Success)
+ * Return: will wake the value of void = 0
  */
 int main(void)
 {
