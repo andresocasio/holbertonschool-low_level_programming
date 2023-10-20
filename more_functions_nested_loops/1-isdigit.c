@@ -1,17 +1,22 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 
 /**
- * _isdigit - function that checks for a digit (0 through 9)
- *
- * @c: int to control
- *
- * Return: 1 if is a digit else 0
+ * _isupper - checks if letter is uppercase
+ * Return: 0 or 1
+ * @c: variable for function
  */
 
-int _isdigit(int c)
+int _isupper(int c)
 {
-	if (c > 47 && c < 58)
+	if (c >= 'A' && c <= 'Z')
+	{
 		return (1);
-
-	return (0);
+	}
+	else
+	{
+		return (0);
+	}
 }
